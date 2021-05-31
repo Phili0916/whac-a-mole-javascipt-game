@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    cursor: url('../Images/hammer.jpg'), auto;
+    height: 100%;
+}
+
+body {
+    background-image:url('../Images/garden.jpg');
+    background-size: cover;
+    
+}
+.grid {
+    margin: auto;
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+    opacity: 0.5;
+}
+
+.mole {
+    background-image:url('../Images/mole.jpg');
+    background-size: cover;
+    opacity: 1;
+}
